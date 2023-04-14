@@ -1,0 +1,89 @@
+*{
+    /*#f1f5f8*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f5f8;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+}
+.sub-head{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #8b8d90;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tab{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    -ms-grid-column-align: center;
+    margin-top: 6%;
+}
+.image{
+    width: 85%;
+    margin-left: 10%;
+    height: 75%;
+    border-radius: 20px;
+}
+.tabs{
+    background-color: rgb(255, 255, 255);
+    height: 75%;
+    width: 80%;
+    border-radius: 20px;
+    padding-bottom: 100px;
+}
+.tabs-content{
+    padding-bottom: 30px;
+}
+.tabs-content h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    margin-left: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tabs-content h4{
+    font-size: 15px;
+    color: #939395;
+    margin-left: 23px;
+    padding: 10px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tabs-button{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 20px;
+}
+.tabs-button button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+@media (max-width: 800px) {
+    .tab{
+        display: block;
+    }
+    .tabs{
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .tabs-button{
+        font-size: 12px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
